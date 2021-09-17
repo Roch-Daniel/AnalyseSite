@@ -1,7 +1,7 @@
 # Analyse de Site
 
 ## Sobre:
-Pequena pagina de analise, com seu front em React', onde você consegue enviar um link de qualquer site https, e um "robô", atravês do Node.JS, irá analisar quantos links internos e externos, qual o domínio do site e e se ele é ou não html5.
+Pequena pagina de analise, com seu front em React', onde você consegue enviar um link de qualquer site https, e um "robô", através do Node.JS, irá analisar quantos links internos e externos, qual o domínio do site e se ele é ou não html5.
 
 ## 1º passo:
 Vá na pasta consulta_url (cd consulta_url) e dê o seguinte comando:
@@ -9,12 +9,12 @@ Vá na pasta consulta_url (cd consulta_url) e dê o seguinte comando:
 Esta é a parte do React: localhost:3000
 
 ## 2º passo:
-voltando pasa a pasta principal (cd..), dê o mesmo comando:
+voltando para a pasta principal (cd..), dê o mesmo comando:
 `npm install` - para que assim ele instale as seguintes bibliotecas(puppeteer,express,nodemon,concurrently)
 Está é a parte do Node: localhost:5000
 
 # Explicação das Bibliotecas:
-- [Puppeteer](https://www.npmjs.com/package/puppeteer) - Bot que irá me auxiliar para fazer as analises do site.
+- [Puppeteer](https://www.npmjs.com/package/puppeteer) - Robô que irá me auxiliar para fazer as analises do site.
 
 - [Express](https://www.npmjs.com/package/express) para me auxiliar na rota, para pegar as informações. 
 
