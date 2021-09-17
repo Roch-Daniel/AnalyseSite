@@ -1,0 +1,20 @@
+{
+  "name": "node-react",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "\"node ./src/server.js\" \"cd consulta_url && npm start\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "client": "cd consulta_url && npm start",
+    "server": "node index.js",
+    "dev": "concurrently --kill-others-on-fail \"nodemon index.js\" \"npm run client\"",
+    "devNode": "nodemon src/server"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^2.0.12"
+  }
+}

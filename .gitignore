@@ -1,0 +1,23 @@
+node_modules
+consulta_url/node_modules
+
+# dependencies
+consulta_url/.pnp
+.pnp.js
+
+# testing
+consulta_url/coverage
+
+# production
+consulta_url/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
