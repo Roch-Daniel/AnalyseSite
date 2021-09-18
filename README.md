@@ -21,3 +21,6 @@ Está é a parte do Node: localhost:5000
 - [Nodemon](https://www.npmjs.com/package/nodemon) para me auxiliar na parte de desenvolvimento. (com isso consigo somente rodar a parte Back usando o seguinte comando: npm run devNode)
 
 - [Concurrently](https://www.npmjs.com/package/concurrently) auxilio para quando eu dar o seguinte comando: `npm run dev` ele irá abrir tanto o node quanto o react! 
+
+# Abrindo Projeto:
+Basta abrir o terminar e dar o seguinte comando: `npm run dev` ou `npm start`
